@@ -23,7 +23,7 @@
               <a class="nav__link" href="#staff">Escolhas da Equipe</a>
             </li>
             <li>
-              <a class="nav__link">Eventos</a>
+              <a class="nav__link" href="#mais-eventos">Eventos</a>
             </li>
             <li>
               <a class="nav__link">Seja um membro</a>
@@ -130,7 +130,7 @@
           </ul>
         </section>
 
-        <section class="events">
+        <section class="events" id="mais-eventos">
           <div class="events__content">
             <h2 class="events__heading">Próximos eventos:</h2>
             <h3 class="events__title">
@@ -156,7 +156,7 @@
                 </p>
               </div>
             </div>
-            <p class="events__description">
+            <p class="events__description" id="mais-equipes">
               Neste evento, que homenageia a pessoa que inspirou o nome da
               biblioteca, vamos ter uma palestra que vai nos levar para uma
               jornada explorando alguns das pesquisadoras mais proeminentes no
@@ -165,9 +165,56 @@
               visa mudar essa noção e provar que esse não é o caso desde, pelo
               menos, o século XVIII.
             </p>
-            <a href="#" class="events__more">Mais eventos &rarr;</a>
+            <a href="#mais-eventos" class="events__more">Mais eventos &rarr;</a>
           </div>
-          <!-- Comece a criar a composição aqui -->
+
+          <div class="events__cover">
+            <img
+              src="./images/cafe.png"
+              alt="Ilustração 'Dentro do café'"
+              class="events__cover"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Joan Feynman, mulher idosa, em preto e branco"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Margaret Burbidge, mulher idosa, em preto e branco"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Cannon, mulher idosa, em preto e branco"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell, mulher jovem, em preto e branco"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Jill Tarter, mulher idosa, em preto e branco"
+                class="person__image person__image_size_m"
+              />
+            </div>
+          </div>
         </section>
       </main>
     </div>
